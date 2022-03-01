@@ -1,0 +1,104 @@
+{
+    "dosYears": [
+        {
+            "value": "2019",
+            "Color": {
+                "r": 255,
+                "g": 66,
+                "b": 95,
+                "hex": "#ff425f"
+            }
+        }
+    ],
+    "dxCategory": "",
+    "dxDescription": "Essential (primary) hypertension",
+    "dxShortCode": "HCCnull",
+    "key": "HCCnull|Essential (primary) hypertension",
+    "menuIndex": "1",
+    "items": [
+        {
+            "BorderColor": {
+                "r": 255,
+                "g": 66,
+                "b": 95,
+                "hex": "#ff425f"
+            },
+            "Color": {
+                "r": 255,
+                "g": 66,
+                "b": 95,
+                "hex": "#ff425f"
+            },
+            "DX Category": null,
+            "DX Codetype": "medicare_part_c",
+            "DX Condition Type": "Chronic",
+            "DX Context": "5. HTN (hypertension) (401.9) (I10)",
+            "DX Description": null,
+            "DXCAT3": "I10",
+            "DXCAT3DESC": "Essential (primary) hypertension",
+            "FillAlpha": 0.4,
+            "HCC Description": null,
+            "StrokeColor": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "hex": "#000"
+            },
+            "StrokeColorAlpha": 1,
+            "StrokeThickness": 0,
+            "WallFillAlpha": 0.8,
+            "WallWidth": 15,
+            "additional_codes": [],
+            "capturedStatus": null,
+            "code1": "I10",
+            "code2": null,
+            "dxCategory": "null",
+            "dxCodeType": "medicare_part_c",
+            "dxConditionType": "Chronic",
+            "dxContext": "5. HTN (hypertension) (401.9) (I10)",
+            "dxDescription": "undefined",
+            "dxDos": {
+                "day": "7",
+                "month": "5",
+                "year": "2019",
+                "dos": "5/7/19",
+                "fulldos": "5/7/2019"
+            },
+            "end": 611,
+            "exact_match": true,
+            "final_codes": [
+                "I110",
+                "I5030"
+            ],
+            "groupKey": "HCCnull|Essential (primary) hypertension",
+            "h_page": 3300,
+            "hccDescription": "Essential (primary) hypertension",
+            "id": "12-431-1180-493-1157",
+            "inChaseData": false,
+            "inMeat": false,
+            "isCodable": true,
+            "is_meat": false,
+            "meat": [
+                "10-241",
+                "10-568",
+                "10-1485",
+                "10-1512",
+                "10-1587",
+                "12-885",
+                "12-2101",
+                "12-2824"
+            ],
+            "page": 12,
+            "section": "Assessment",
+            "start": 608,
+            "submenuIndex": "1-1",
+            "text": "HTN",
+            "type": "Disease",
+            "w_page": 2550,
+            "x1": 431,
+            "x2": 493,
+            "y1": 1180,
+            "y2": 1157
+        }
+    ]
+}
