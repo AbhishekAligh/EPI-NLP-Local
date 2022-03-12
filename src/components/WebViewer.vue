@@ -54,6 +54,7 @@ export default {
         "textSquigglyToolButton",
         "textUnderlineToolButton",
         "strikeoutToolButton",
+        "annotationCommentButton",
       ]);
       docViewer.setMargin(40);
 
@@ -74,7 +75,18 @@ export default {
           rectangleAnnot.setCustomData("id", annot.id);
           annotManager.addAnnotation(rectangleAnnot);
           annotManager.redrawAnnotation(rectangleAnnot);
-        
+          const annotationList = annotManager.getAnnotationsList();
+          console.log("List of annoations is as follows", annotationList);
+          //To get the position of an annotation: 
+          //  https://community.pdftron.com/t/how-to-get-the-position-of-annotation-relative-to-the-entire-screen/4286
+          let annotationInfo = {
+            pageNumber: annotationList[0].getPageNumber(),
+            "y-Coordinate": annotationList[0].getY(),
+            "x-Coordinate": annotationList[0].getX(),
+            height: annotationList[0].getHeight(),
+            width: annotationList[0].getWidth(),
+          };
+          console.log("annotation Info: ", annotationInfo);
         }
       });
     });
@@ -90,13 +102,14 @@ export default {
         this.webViewerInstance.disableElements([
           "textToolGroupButton",
           "highlightToolButton",
-         
         ]);
         console.log("Annotate button clicked");
       }
     },
   },
 };
+// TODO : Identify how the newly created annotations are saved and populate annotation specific info such as : Coordinates, pagenumber etc...
+
 </script>
 
 <style scoped>
